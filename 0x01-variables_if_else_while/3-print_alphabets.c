@@ -6,11 +6,17 @@
  */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+char lowercase = 'a';
+char uppercase = 'A';
+while (lowercase <= 'z')
 {
-putchar(letter);
-letter++;
+putchar(lowercase);
+lowercase++;
+}
+while (uppercase <= 'Z')
+{
+putchar(uppercase);
+uppercase++;
 }
 putchar('\n');
 return (0);
